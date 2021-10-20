@@ -11,4 +11,10 @@ func main() {
 	var num1 int
 	num1 = num
 	fmt.Printf("num1的数值:%d,num1的地址:%p\n",num1,&num1)
+
+	var a,b,c int
+	a=1
+	b=2
+	c=3
+	fmt.Println(a+b+c)
 }

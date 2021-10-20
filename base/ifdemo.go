@@ -28,4 +28,12 @@ func main() {
 		fmt.Println("大于3")
 	}
 
+	a := 101
+	if a>200 {
+		fmt.Println("大于200")
+	} else if a>100 {
+		fmt.Println("大于100")
+	} else {
+		fmt.Println("小于100")
+	}
 }
